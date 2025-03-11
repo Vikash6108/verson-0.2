@@ -15,7 +15,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser())
 
-
+app.get("/", function(req,res){
+    res.render('userWelcome');
+})
 app.use("/users",userRoutes)
 app.use("/profiles",profileRoutes)
 

@@ -4,7 +4,7 @@ const userController =require("../controllers/users.controller")
 
 
 
-router.get("/", userController.welcomePage)
+
 
 /* /users/register [get]  */
 router.get("/register",userController.registerViewController)
