@@ -1,0 +1,404 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #6e6969;
+    overflow: hidden
+
+}
+.top_baar{
+    width: 98.74%;
+    height: 7%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+    border-top-left-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    padding-top:0px;
+    padding-bottom:65px ; 
+    
+}
+.box_menu{
+    width: 3%;
+    height: 100%;
+    border-bottom-left-radius:12px ;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    /* justify-content:space-evenly; */
+    gap:37%;
+}
+.top_icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50px;
+    gap: 15px;
+    font-size: large;
+    padding: 8px;
+}
+
+.top_icon .line{
+    height: 0.1px;
+    width: 100%;
+    background-color: rgb(56, 54, 54);
+}
+
+.top_icon i{
+    padding: 10px;
+}
+.top_icon i:hover{
+    background-color: #1F5BE7;
+    border-radius: 20px;
+}
+
+.bottom_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: large;
+}
+
+.bottom_icon .line{
+    height: 0.1px;
+    width: 100%;
+    background-color: rgb(56, 54, 54);
+}
+.bottom_icon i{
+    padding: 10px;
+}
+
+.bottom_icon i:hover{
+    background-color: #1F5BE7;
+    border-radius: 20px;
+}
+
+
+#box_left{
+ width: 35%;
+ height: 100%;
+ background-color: rgb(49, 47, 47);
+ border: 1px solid black;
+ overflow: hidden;
+}
+
+.box_left_top{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(49, 47, 47);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 3px rgb(185, 185, 185);
+    padding: 10px;
+    border-bottom: 0.5px solid rgb(114, 110, 110);   
+}
+
+
+.box1{
+    width: 100%;
+    height: 50%;
+    padding: 12px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;    
+}
+
+.box1_left{
+    display: flex;
+    align-items: center;
+}
+
+.box1_left h2{
+    margin: 0px 35px;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+  font-style: normal;
+
+}
+.top_baar>img{
+    width: 45px;
+    height: 45px;
+    margin: 3px 5px;
+    color: white;
+    border-radius: 30px;
+}
+.top_baar>h2{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size:x-large;
+    font-family: "VT323", monospace;
+}
+.icon i{
+    font-size:18px ;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 10px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.icon i:hover{
+    background-color: #1F5BE7;
+    border-radius: 20px;
+}
+.box2{
+    width: 95%;
+    height: 35%;
+    padding: 4px;
+    background-color: rgb(87, 85, 85); 
+    border-bottom: 1px solid rgb(194, 191, 191);
+    border-radius: 4px;
+    color: rgb(133, 130, 130);
+    
+}
+.box_left_top .box2 input{
+    width: 95%;
+    height: 100%;
+    border: none;
+    background-color: rgb(87, 85, 85);
+    color: white;
+}
+ 
+ #card_box{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: flex ;
+    align-items: center ;
+    background-color: #312F2F ;
+    flex-direction: column ; 
+}
+ .card{
+    width: 85%;
+    height: 12%;
+    background-color: rgb(101, 99, 99) ;
+    margin: 10px 18px;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(225, 225, 225);
+    display: flex;
+    align-items: center;
+}
+.card:hover{
+    background-color: #4e4e4e;  
+}
+.card_profile{
+    width: 100%;
+    height: 100%;
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    color: #dac9c9;
+    align-items: center;
+}
+.card_profile img{
+    width: 19%;
+    height: 99%;
+    padding: 4px;
+    margin-left:4px ;
+    border-radius: 50px;   
+}
+#box_right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../images/main\ UI\ chat\ wallpaper.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+.box_right_top{
+    width: 100%;
+    height: 11%;
+    background-color: rgb(49, 47, 47);
+    /* border-top-right-radius: 12px; */
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box_right_top .profile{
+ width: 100%;
+ height: 90%;
+ padding: 2px;
+ margin: 0px 5px;
+ border-bottom: 2px solid rgb(116, 114, 114);
+ /* border-radius: 10px; */
+
+}
+.box_right_top .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 80%;
+    color: white;   
+}
+.box_right_top .icon i{
+font-size: 30px;
+}
+.box_right_top .icon i:hover{
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.box_right_buttom{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(49, 47, 47);
+    /* border-bottom-right-radius:12px; */
+    display: flex;
+}
+
+.box_right_buttom .buttom_box{
+    width: 15%;
+    height: 100%;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box_right_buttom .buttom_box i{
+    cursor: pointer ;
+    padding: 8px;
+
+}
+.box_right_buttom .buttom_box i:hover{
+    /* padding: 8px;  */
+    background-color: #1F5BE7;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-radius: 25px;
+}
+.box_right_buttom .type_message{
+    width: 100%;
+    height: 90%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    border-radius: 6px;
+    
+}
+.box_right_buttom .type_message input{
+    width: 100%;
+    height: 90%;
+    background-color: hsla(0, 1%, 33%, 0.5);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+.box_right_buttom .send_sms{
+   width: 100px;
+   height: 70px;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+}
+
+.box_right_buttom .send_sms i{
+    font-size: 30px;
+    background-color:#3874EB;
+    padding: 8px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+}
+
+                                       /* welcome css code        */
+#welcome{
+   width: 100%;
+   height: 100%;
+   background-color: rgb(9, 1, 1);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.logo{
+ width: 200px;
+ height: 200px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+   
+}
+ 
+ .title{
+     width: 700px;
+     height: 100px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     color: rgb(219, 215, 215);
+ }
+ h2{
+     font-size: x-large;
+     font-family: "Press Start 2P", system-ui;
+     
+ }
+ a{
+     padding: 10px 50px;
+     background-color: green;
+     border-radius: 5px;
+     border: 1px solid green;
+     cursor: pointer;
+     font-size: larger;
+     text-decoration: none;
+     color: black;
+     font-size: medium;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ 
+form a:hover{
+    background-color: rgb(16, 165, 16);
+ }
+ 
+ p{
+    color: rgb(190, 183, 183); 
+    margin: 15px;
+    font-size: large;
+    font-family: "Satisfy", cursive;
+ }
